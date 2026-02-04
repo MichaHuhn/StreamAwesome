@@ -8,9 +8,9 @@ const iconStore = useIconsStore()
 </script>
 
 <template>
-  <PresetOptions :icon="iconStore.currentIcon" />
+  <PresetOptions />
 
-  <GeneralOptions :icon="iconStore.currentIcon" />
+  <GeneralOptions />
 
   <DownloadButton />
 </template>
